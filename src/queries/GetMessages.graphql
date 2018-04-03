@@ -1,0 +1,7 @@
+query {
+  allMessages(last: 10) {
+    id
+    body
+    createdAt
+  }
+}

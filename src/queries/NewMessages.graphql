@@ -1,0 +1,9 @@
+subscription NewMessages {
+  Message(filter: { mutation_in: CREATED }) {
+    node {
+      id
+      body
+      createdAt
+    }
+  }
+}

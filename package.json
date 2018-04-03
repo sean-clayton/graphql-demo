@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.12",
+    "apollo-client": "^2.2.8",
+    "apollo-link": "^1.2.1",
+    "apollo-link-error": "^1.0.7",
+    "apollo-link-http": "^1.5.3",
+    "apollo-link-ws": "^1.0.7",
+    "apollo-utilities": "^1.0.11",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.8.0",
+    "react": "^16.3.0",
+    "react-apollo": "^2.1.0-beta.3",
+    "react-dom": "^16.3.0",
+    "react-scripts": "2.0.0-next.b2fd8db8",
+    "subscriptions-transport-ws": "^0.9.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ]
+  }
+}
